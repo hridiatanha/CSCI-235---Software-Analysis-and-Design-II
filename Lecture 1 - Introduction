@@ -1,0 +1,132 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOFrumUnSvu0Ftl4gr8XxDV",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hridiatanha/CSCI-235---Software-Analysis-and-Design-II/blob/Slide-Annotations/Lecture%201%20-%20Introduction\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "\n",
+        "---\n",
+        "\n",
+        "\n",
+        "**Think like a Computer Scientist**\n",
+        "\n",
+        "**Design + Maintain complex programs:**\n",
+        "1. Software Engineering\n",
+        "  *   Modularity\n",
+        "  *   Readability/Ease of Use\n",
+        "  *   Modifiability/Extensibility/Maintenance\n",
+        "  *   Fail-Safe Programming/Exception Handling\n",
+        "2. Abstraction\n",
+        "3. OOP\n",
+        "\n",
+        "**Design + Represent data & its manangement:**\n",
+        "1. Abstract Data Types\n",
+        "\n",
+        "**Implement data representation & operations:**\n",
+        "1. Data Structures\n",
+        "2. Algorithms\n",
+        "\n",
+        "**Understand Algorithm Efficiency**\n",
+        "\n",
+        "---\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "twq3oKl_7PlA"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Interaction** - Lines of code working together to manipulate the same data.\n",
+        "\n",
+        "\n",
+        "```\n",
+        "int x = 5;  // if x changes to my_var\n",
+        "cout << x;  // must change x here too\n",
+        "```\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "hWPmvs_Z-Ls_"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Possible interactions with n lines of code:** n(n-1)/2 = (n²-n)/2\n",
+        "\n",
+        "**Ex** : 10 lines = 45 interactions"
+      ],
+      "metadata": {
+        "id": "gdvbC6uv-7ph"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Possible subsets of n lines of code interacting:** 2ⁿ\n",
+        "\n",
+        "\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "D8qkMLFKA5cg"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Problems with large software:**\n",
+        "1. Greater likelihood of error\n",
+        "2. More diffucult to debug & modify\n",
+        "\n",
+        "**Control software interaction:**\n",
+        "1. Write small units of code\n",
+        "2. Minimize interactions/coupling\n",
+        "3. Enforce strict rules on how code interacts\n",
+        "\n",
+        "**Done using:**\n",
+        "1. Principles of Software Engineering\n",
+        "2. Object Oriented Programming\n",
+        "\n",
+        "\n",
+        "---\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "TX_kM6LCB1L5"
+      }
+    }
+  ]
+}
